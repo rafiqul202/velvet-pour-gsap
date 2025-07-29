@@ -6,8 +6,13 @@ import Hero from "../components/Hero";
 import Cocktails from "../components/Cocktails";
 import About from "../components/About";
 import Art from "../components/Art";
+import Menu from "../components/Menu";
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
+// youTube video link
+
+//www.youtube.com/watch?v=AW1yfBKRMKc
+
+https: gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <main>
@@ -15,7 +20,8 @@ function App() {
       <Hero />
       <Cocktails />
       <About />
-      <Art/>
+      <Art />
+      <Menu />
     </main>
   );
 }
